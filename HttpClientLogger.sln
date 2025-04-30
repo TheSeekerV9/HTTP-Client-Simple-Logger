@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientLogger", "HttpClientLogger\HttpClientLogger.csproj", "{F5CA6AAD-BD5A-4E13-97D0-B5BF6DB58388}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HttpClientLogger.Tests", "HttpClientLogger.Tests\HttpClientLogger.Tests.csproj", "{BB1916A5-BC8B-49BA-9CB5-08A857A7E470}"
+	ProjectSection(ProjectDependencies) = postProject
+		{F5CA6AAD-BD5A-4E13-97D0-B5BF6DB58388} = {F5CA6AAD-BD5A-4E13-97D0-B5BF6DB58388}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5CA6AAD-BD5A-4E13-97D0-B5BF6DB58388}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5CA6AAD-BD5A-4E13-97D0-B5BF6DB58388}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5CA6AAD-BD5A-4E13-97D0-B5BF6DB58388}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CA6AAD-BD5A-4E13-97D0-B5BF6DB58388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB1916A5-BC8B-49BA-9CB5-08A857A7E470}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB1916A5-BC8B-49BA-9CB5-08A857A7E470}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB1916A5-BC8B-49BA-9CB5-08A857A7E470}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB1916A5-BC8B-49BA-9CB5-08A857A7E470}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
